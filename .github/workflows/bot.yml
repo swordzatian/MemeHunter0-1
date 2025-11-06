@@ -2,7 +2,7 @@ name: Memcoin Signal Bot
 
 on:
   schedule:
-    - cron: '*/5 * * * *'
+    - cron: '*/30 * * * *'  # Каждые 30 минут
   workflow_dispatch:
 
 jobs:
